@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "73829532753",
+    "firebase_url": "https://tamponsnavigatorr.firebaseio.com",
+    "project_id": "tamponsnavigatorr",
+    "storage_bucket": "tamponsnavigatorr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73829532753:android:0f52d4812ed0efe3",
+        "android_client_info": {
+          "package_name": "com.example.nataliaaulia.tamponsnavigator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73829532753-39d375kg0ai991q8kbqjnn6ts72lqoll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nataliaaulia.tamponsnavigator",
+            "certificate_hash": "cfe4d336e7ceff02cc0766a2343d0e08d3473f7f"
+          }
+        },
+        {
+          "client_id": "73829532753-0sk5gjnvvt16cn41fg6jml67jhdo6lak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUdLqoqVJeo9TtPRp2Grr8l67fo2CvCB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73829532753-0sk5gjnvvt16cn41fg6jml67jhdo6lak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

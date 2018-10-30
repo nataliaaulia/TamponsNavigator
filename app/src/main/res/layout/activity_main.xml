@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ic_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="T A M P O N S"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textColor="@color/providerRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="NAVIGATOR"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/providerRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_provider"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="DEDICATED ONLY FOR YOU"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/bottomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_above="@id/txt_provider"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="I HAVE TAMPONS!"
+            android:textColor="@color/providerRegister"
+            android:layout_marginRight="6dp"
+            android:id="@+id/provider"
+            android:background="@drawable/btn_provider_background"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="I NEED TAMPONS!"
+            android:textColor="@color/providerRegister"
+            android:layout_marginLeft="6dp"
+            android:id="@+id/customer"
+            android:background="@drawable/btn_register_background"/>
+
+    </LinearLayout>
+</RelativeLayout>
